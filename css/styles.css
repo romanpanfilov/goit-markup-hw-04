@@ -223,8 +223,8 @@ address {
   margin: 0 auto;
 }
 
-.business-btn:hover,
-.business-btn:focus {
+.business-button:hover,
+.business-button:focus {
   background-color: #404bbf;
 }
 
