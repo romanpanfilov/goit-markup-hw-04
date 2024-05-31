@@ -124,21 +124,16 @@ address {
   padding-top: 24px;
   padding-bottom: 24px;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-menu-item:hover {
+.header-menu-item:hover,
+.header-menu-item:active,
+.header-menu-item:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #404bbf;
-}
-
-.header-menu-item:active {
-  color: #404bbf;
-}
-
-.header-menu-item:focus {
   color: #404bbf;
 }
 
@@ -151,6 +146,10 @@ address {
   position: absolute;
   bottom: -1px;
   left: 0;
+}
+
+.current {
+  color: #404bbf;
 }
 
 .header-adress {
@@ -171,6 +170,7 @@ address {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-adress-item:hover,
@@ -233,6 +233,7 @@ address {
   border-radius: 4px;
   padding: 16px 32px;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .business-button:hover,
