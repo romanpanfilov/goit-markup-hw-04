@@ -384,6 +384,10 @@ address {
   fill: #f4f4fd;
 }
 
+.team-svg-icons {
+  fill: #f4f4fd;
+}
+
 /*------------------ TEAM SECTION -------------------*/
 
 /*------------------ PORTFOLIO SECTION -------------------*/
@@ -493,6 +497,7 @@ address {
 
 .footer-logo-text {
   margin-right: 120px;
+  width: 264px;
 }
 
 .footer-logo {
@@ -530,7 +535,6 @@ address {
 .footer-social-link {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
 .footer-social-text {
@@ -539,6 +543,12 @@ address {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-menu-link {
+  display: flex;
+  gap: 16px;
 }
 
 .footer-link {
